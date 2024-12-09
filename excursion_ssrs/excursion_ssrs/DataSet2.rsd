@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>EVALUATE SUMMARIZECOLUMNS('Dim Customer'[Cs ID], 'Dim Customer'[Customer Name], "Debt", [Debt])</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition">
+          <CommandType>DAX</CommandType>
+          <QuerySpecification xsi:type="MDXQuerySpecification">
+            <Select>
+              <Items>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Customer</DimensionName>
+                    <HierarchyName>Cs ID</HierarchyName>
+                    <HierarchyUniqueName>[Dim Customer].[Cs ID]</HierarchyUniqueName>
+                    <LevelName>Cs ID</LevelName>
+                    <UniqueName>[Dim Customer].[Cs ID].[Cs ID]</UniqueName>
+                  </ID>
+                  <ItemCaption>Cs ID</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Level">
+                    <DimensionName>Dim Customer</DimensionName>
+                    <HierarchyName>Customer Name</HierarchyName>
+                    <HierarchyUniqueName>[Dim Customer].[Customer Name]</HierarchyUniqueName>
+                    <LevelName>Customer Name</LevelName>
+                    <UniqueName>[Dim Customer].[Customer Name].[Customer Name]</UniqueName>
+                  </ID>
+                  <ItemCaption>Customer Name</ItemCaption>
+                  <UniqueName>true</UniqueName>
+                </Item>
+                <Item>
+                  <ID xsi:type="Measure">
+                    <MeasureName>Debt</MeasureName>
+                    <UniqueName>[Measures].[Debt]</UniqueName>
+                  </ID>
+                  <ItemCaption>Debt</ItemCaption>
+                  <BackColor>true</BackColor>
+                  <ForeColor>true</ForeColor>
+                  <FontFamily>true</FontFamily>
+                  <FontSize>true</FontSize>
+                  <FontWeight>true</FontWeight>
+                  <FontStyle>true</FontStyle>
+                  <FontDecoration>true</FontDecoration>
+                  <FormattedValue>true</FormattedValue>
+                  <FormatString>true</FormatString>
+                </Item>
+              </Items>
+            </Select>
+            <AutoExecute>false</AutoExecute>
+            <From>Excursion2DW</From>
+            <Filter>
+              <FilterItems />
+            </Filter>
+            <Calculations />
+            <Aggregates />
+            <QueryProperties>
+              <IncludeMemberValue>true</IncludeMemberValue>
+            </QueryProperties>
+          </QuerySpecification>
+          <Query>
+            <Statement>EVALUATE SUMMARIZECOLUMNS('Dim Customer'[Cs ID], 'Dim Customer'[Customer Name], "Debt", [Debt])</Statement>
+            <ParameterDefinitions />
+          </Query>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Cs_ID">
+        <DataField>Dim Customer[Cs ID]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Customer_Name">
+        <DataField>Dim Customer[Customer Name]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Debt">
+        <DataField>[Debt]</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

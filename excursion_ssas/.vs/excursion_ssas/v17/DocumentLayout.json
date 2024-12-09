@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\kursova\\excursion_ssas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27825B75-DEF2-42DB-A014-323D120F28C3}|excursion_ssas\\excursion_ssas.dwproj|D:\\kursova\\excursion_ssas\\excursion_ssas\\Excursion2DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{27825B75-DEF2-42DB-A014-323D120F28C3}|excursion_ssas\\excursion_ssas.dwproj|solutionrelative:excursion_ssas\\Excursion2DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 369,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Excursion2DW.cube [Design]",
+              "DocumentMoniker": "D:\\kursova\\excursion_ssas\\excursion_ssas\\Excursion2DW.cube",
+              "RelativeDocumentMoniker": "excursion_ssas\\Excursion2DW.cube",
+              "ToolTip": "D:\\kursova\\excursion_ssas\\excursion_ssas\\Excursion2DW.cube [Design]",
+              "RelativeToolTip": "excursion_ssas\\Excursion2DW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-07T16:03:11.842Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

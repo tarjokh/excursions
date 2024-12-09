@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "excursion_ssas", "excursion_ssas\excursion_ssas.dwproj", "{27825B75-DEF2-42DB-A014-323D120F28C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27825B75-DEF2-42DB-A014-323D120F28C3}.Development|Default.ActiveCfg = Development
+		{27825B75-DEF2-42DB-A014-323D120F28C3}.Development|Default.Build.0 = Development
+		{27825B75-DEF2-42DB-A014-323D120F28C3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6456C66B-95D0-40B8-BF8F-B616E2F7F94C}
+	EndGlobalSection
+EndGlobal

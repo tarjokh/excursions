@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\kursova\\excursion_ssrs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFA637B-9F21-45EB-90CA-303C68C25A92}|excursion_ssrs\\excursion_ssrs.rptproj|D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{DBFA637B-9F21-45EB-90CA-303C68C25A92}|excursion_ssrs\\excursion_ssrs.rptproj|solutionrelative:excursion_ssrs\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFA637B-9F21-45EB-90CA-303C68C25A92}|excursion_ssrs\\excursion_ssrs.rptproj|D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{DBFA637B-9F21-45EB-90CA-303C68C25A92}|excursion_ssrs\\excursion_ssrs.rptproj|solutionrelative:excursion_ssrs\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFA637B-9F21-45EB-90CA-303C68C25A92}|excursion_ssrs\\excursion_ssrs.rptproj|D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{DBFA637B-9F21-45EB-90CA-303C68C25A92}|excursion_ssrs\\excursion_ssrs.rptproj|solutionrelative:excursion_ssrs\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 369,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Report3.rdl [Design]",
+              "DocumentMoniker": "D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report3.rdl",
+              "RelativeDocumentMoniker": "excursion_ssrs\\Report3.rdl",
+              "ToolTip": "D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report3.rdl [Design]",
+              "RelativeToolTip": "excursion_ssrs\\Report3.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-07T19:57:43.42Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report2.rdl [Design]",
+              "DocumentMoniker": "D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report2.rdl",
+              "RelativeDocumentMoniker": "excursion_ssrs\\Report2.rdl",
+              "ToolTip": "D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report2.rdl [Design]",
+              "RelativeToolTip": "excursion_ssrs\\Report2.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-07T19:57:38.709Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report1.rdl [Design]",
+              "DocumentMoniker": "D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report1.rdl",
+              "RelativeDocumentMoniker": "excursion_ssrs\\Report1.rdl",
+              "ToolTip": "D:\\kursova\\excursion_ssrs\\excursion_ssrs\\Report1.rdl [Design]",
+              "RelativeToolTip": "excursion_ssrs\\Report1.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-07T19:57:30.117Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

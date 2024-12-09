@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-N5HP75N.Excursion2"
+  DTS:DTSID="{D664B0D4-784B-4891-AD0C-E02BA2A70D4E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-N5HP75N;Initial Catalog=Excursion2;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-excursion_ssis-{D664B0D4-784B-4891-AD0C-E02BA2A70D4E}DESKTOP-N5HP75N.Excursion2;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
